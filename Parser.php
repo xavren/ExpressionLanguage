@@ -38,6 +38,7 @@ class Parser
 
         $this->unaryOperators = array(
             'not' => array('precedence' => 50),
+            'is' => array('precedence' => 50),
             '!' => array('precedence' => 50),
             '-' => array('precedence' => 500),
             '+' => array('precedence' => 500),

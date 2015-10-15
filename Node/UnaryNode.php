@@ -23,6 +23,7 @@ class UnaryNode extends Node
     private static $operators = array(
         '!' => '!',
         'not' => '!',
+        'is' => '',
         '+' => '+',
         '-' => '-',
     );
@@ -54,6 +55,8 @@ class UnaryNode extends Node
                 return !$value;
             case '-':
                 return -$value;
+            case 'is':
+                return $value;
         }
 
         return $value;

@@ -24,7 +24,6 @@ class BinaryNode extends Node
         '~' => '.',
         'and' => '&&',
         'or' => '||',
-        'is' => '==',
     );
 
     private static $functions = array(
@@ -119,7 +118,6 @@ class BinaryNode extends Node
                 return $left ^ $right;
             case '&':
                 return $left & $right;
-            case 'is':
             case '==':
                 return $left == $right;
             case '===':
