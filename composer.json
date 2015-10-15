@@ -1,0 +1,17 @@
+{
+    "name": "xavren/expression-language",
+    "type": "library",
+    "description": "Symfony ExpressionLanguage Component Fork",
+    "keywords": [],
+    "homepage": "https://symfony.com",
+    "license": "MIT",
+    "authors": [
+    ],
+    "require": {
+        "php": ">=5.3.9"
+    },
+    "autoload": {
+        "psr-4": { "Hydra\\Component\\ExpressionLanguage\\": "" }
+    },
+    "minimum-stability": "dev"
+}
